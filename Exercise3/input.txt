@@ -1,0 +1,10 @@
+Vampires: 1, Zombies: 1, Witches: 1, Houses: 1
+Vampires: 3, Zombies: 2, Witches: 1, Houses: 10
+Vampires: 4, Zombies: 7, Witches: 3, Houses: 4
+Vampires: 1, Zombies: 1, Witches: 7, Houses: 5
+Vampires: 5, Zombies: 5, Witches: 1, Houses: 8
+Vampires: 2, Zombies: 4, Witches: 1, Houses: 14
+Vampires: 1, Zombies: 2, Witches: 4, Houses: 3
+Vampires: 6, Zombies: 2, Witches: 3, Houses: 11
+Vampires: 2, Zombies: 1, Witches: 4, Houses: 5
+Vampires: 6, Zombies: 5, Witches: 5, Houses: 10
