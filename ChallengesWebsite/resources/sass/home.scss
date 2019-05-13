@@ -1,0 +1,61 @@
+//colors
+$white: #fff;
+$color_nevada_approx: #636b6f;
+
+//fonts
+$font_0: Nunito;
+$font_1: sans-serif;
+
+//@extend-elements
+//original selectors
+//html, body
+%extend_1 {
+	background-color: $white;
+	color: $color_nevada_approx;
+	font-family: $font_0, $font_1;
+	font-weight: 200;
+	height: 100vh;
+	margin: 0;
+}
+
+
+html {
+	@extend %extend_1;
+}
+body {
+	@extend %extend_1;
+}
+.full-height {
+	height: 100vh;
+}
+.flex-center {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.position-ref {
+	position: relative;
+}
+.top-right {
+	position: absolute;
+	right: 10px;
+	top: 18px;
+}
+.content {
+	text-align: center;
+}
+.title {
+	font-size: 84px;
+}
+.m-b-md {
+	margin-bottom: 30px;
+}
+.links > a {
+	color: $color_nevada_approx;
+	padding: 0 25px;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: .1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
