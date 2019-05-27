@@ -11,14 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/cleaner', function () {
-    return view('cleaner');
-});
-
-Route::get('/fizzbuzz', function () {
-    return view('fizzbuzz');
-});
+Route::get('/', 'FrontEndController@home')->name('home');
+Route::get('/{slug}', 'FrontEndController@page')->name('stringparser');
